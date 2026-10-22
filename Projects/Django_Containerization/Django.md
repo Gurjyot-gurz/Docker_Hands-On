@@ -175,49 +175,49 @@ The following screenshots document the implementation process.
 
 ### 1. Project Directory Structure
 
-![Project Directory Structure](screenshots/Project_Directories.png)
+![Project Directory Structure](Screenshots/Project_Directories.png)
 
 Shows the project directory and the Django application files.
 
 ### 2. Django Application Files
 
-![Django Application Files](screenshots/Demo_Folder_Files.png)
+![Django Application Files](Screenshots/Demo_Folder_Files.png)
 
 Shows the Django application structure, including Python modules, templates, and supporting files.
 
 ### 3. Dockerfile Configuration
 
-![Dockerfile Configuration](screenshots/Dockerfile_Content.png)
+![Dockerfile Configuration](Screenshots/Dockerfile_Content.png)
 
 Shows the Docker instructions used to create the application image.
 
 ### 4. Python Requirements
 
-![Requirements File](screenshots/requirements_content.png)
+![Requirements File](Screenshots/requirements_content.png)
 
 Shows the Python dependencies specified for the application.
 
 ### 5. Docker Image Build
 
-![Docker Build](screenshots/Docker_Build_Django_App.png)
+![Docker Build](Screenshots/Docker_Build_Django_App.png)
 
 Shows the Docker image build process on the EC2 instance.
 
 ### 6. Application Status and Verification
 
-![Website Status Check](screenshots/Website_Status_Check.png)
+![Website Status Check](Screenshots/Website_Status_Check.png)
 
 Shows the running container, configured port mapping, application logs, and HTTP response verification.
 
 ### 7. EC2 Security Group Configuration
 
-![EC2 Security Group](screenshots/EC2_Instance_Custom_TCP_Setup.png)
+![EC2 Security Group](Screenshots/EC2_Instance_Custom_TCP_Setup.png)
 
 Shows the EC2 Security Group inbound rules used to control access to the application.
 
 ### 8. Django Web Application Running
 
-![Django Web Application](screenshots/Website_Working.png)
+![Django Web Application](Screenshots/Website_Working.png)
 
 Shows the containerized Django web application successfully displayed in a browser.
 
